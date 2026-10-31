@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Placeholder tile, not artwork">
+  <rect width="400" height="500" fill="#0A0F1C"/>
+  <rect x="12" y="12" width="376" height="476" fill="none" stroke="#A78BFA" stroke-opacity=".3" stroke-width="2" stroke-dasharray="8 8"/>
+  <g fill="none" stroke="#2A3550" stroke-width="2">
+    <circle cx="200" cy="215" r="58"/>
+    <path d="M128 352c0-40 32-66 72-66s72 26 72 66"/>
+  </g>
+  <text x="200" y="420" text-anchor="middle" fill="#6B7A94"
+        font-family="ui-monospace, monospace" font-size="17" letter-spacing="2">PLACEHOLDER</text>
+  <text x="200" y="446" text-anchor="middle" fill="#4A566E"
+        font-family="ui-monospace, monospace" font-size="13">not artwork</text>
+</svg>

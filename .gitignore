@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.DS_Store
+.env
+
+# Original phone photos are heavy and never served; only the guide is tracked.
+public/images/artworks/raw/*
+!public/images/artworks/raw/README.md

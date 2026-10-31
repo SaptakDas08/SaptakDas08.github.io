@@ -1,0 +1,84 @@
+<!doctype html>
+<!-- Source for public/og.png — the preview image shown when the site is shared.
+     To re-render: npm run dev, open http://localhost:5173/tools/og-card.html,
+     and screenshot it at exactly 1200x630. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>og card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400..600&display=swap">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { width: 1200px; height: 630px; overflow: hidden; background: #070A12; }
+
+    .card {
+      position: relative;
+      width: 1200px; height: 630px;
+      padding: 84px 92px;
+      display: flex; flex-direction: column; justify-content: center;
+      color: #E8ECF5;
+      font-family: "Inter", system-ui, sans-serif;
+    }
+    svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+    .inner { position: relative; }
+
+    .eyebrow {
+      font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+      font-size: 17px; letter-spacing: .22em; text-transform: uppercase;
+      color: #4D9FFF; margin-bottom: 26px;
+    }
+    h1 {
+      font-family: "Fraunces", Georgia, serif;
+      font-size: 108px; font-weight: 600; letter-spacing: -.02em; line-height: 1;
+    }
+    .tagline {
+      font-family: "Fraunces", Georgia, serif;
+      font-style: italic; font-size: 40px; color: #4D9FFF;
+      margin-top: 22px;
+    }
+    .foot {
+      position: absolute; left: 92px; bottom: 74px;
+      font-size: 21px; color: #9AA7BF; letter-spacing: .01em;
+    }
+    .foot b { color: #E8ECF5; font-weight: 500; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <svg viewBox="0 0 1200 630" aria-hidden="true">
+      <defs>
+        <pattern id="g" width="42" height="42" patternUnits="userSpaceOnUse">
+          <path d="M42 0H0v42" fill="none" stroke="#FFF" stroke-opacity=".05"/>
+        </pattern>
+        <radialGradient id="f" cx="76%" cy="38%" r="46%">
+          <stop offset="0%" stop-color="#FFF"/><stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+        </radialGradient>
+        <mask id="m"><rect width="1200" height="630" fill="url(#f)"/></mask>
+      </defs>
+      <rect width="1200" height="630" fill="url(#g)" mask="url(#m)"/>
+      <g mask="url(#m)">
+        <g stroke="#4D9FFF" stroke-opacity=".45" fill="none">
+          <path d="M905 150 L1020 212 L978 318 L866 330 L905 150"/>
+          <path d="M866 330 L812 218 L905 150"/>
+          <path d="M978 318 L1035 430"/>
+        </g>
+        <g fill="#4D9FFF">
+          <circle cx="905" cy="150" r="5"/><circle cx="1020" cy="212" r="3.5"/>
+          <circle cx="978" cy="318" r="6"/><circle cx="866" cy="330" r="3.5"/>
+        </g>
+        <g fill="#A78BFA"><circle cx="812" cy="218" r="4"/><circle cx="1035" cy="430" r="4"/></g>
+        <circle cx="978" cy="318" r="24" fill="none" stroke="#4D9FFF" stroke-opacity=".3"/>
+      </g>
+    </svg>
+
+    <div class="inner">
+      <p class="eyebrow">Physics &middot; Mathematics &middot; Art &middot; Games</p>
+      <h1>Saptak&nbsp;Das</h1>
+      <p class="tagline">Curious mind. Creative perspective.</p>
+    </div>
+    <p class="foot"><b>saptakdas08.github.io</b></p>
+  </div>
+</body>
+</html>

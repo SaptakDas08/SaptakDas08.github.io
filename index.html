@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saptak Das — Physics, Mathematics, Portrait Art</title>
+  <meta name="description" content="Saptak Das — exploring the universe through science, mathematics, art and imagination.">
+  <meta name="theme-color" content="#070A12">
+  <link rel="canonical" href="https://saptakdas08.github.io/">
+
+  <!-- Share preview. If the site ever moves to another address, update the two
+       absolute URLs below — Open Graph does not accept relative paths. -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://saptakdas08.github.io/">
+  <meta property="og:title" content="Saptak Das — Physics, Mathematics, Portrait Art">
+  <meta property="og:description" content="Curious mind. Creative perspective. Exploring the universe through science, mathematics, art and imagination.">
+  <meta property="og:image" content="https://saptakdas08.github.io/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Saptak Das — Curious mind. Creative perspective.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400..700&display=swap">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="wrap header__inner">
+      <a class="logo" href="#home">Saptak&nbsp;Das<span>.</span></a>
+
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-list">
+        <span class="visually-hidden">Menu</span>
+        <svg width="18" height="14" viewBox="0 0 18 14" fill="currentColor" aria-hidden="true">
+          <rect y="0" width="18" height="2" rx="1"></rect>
+          <rect y="6" width="18" height="2" rx="1"></rect>
+          <rect y="12" width="18" height="2" rx="1"></rect>
+        </svg>
+      </button>
+
+      <nav aria-label="Main">
+        <ul class="nav__list" id="nav-list">
+          <li><a class="nav__link" href="#home">Home</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#science">Physics &amp; Maths</a></li>
+          <li><a class="nav__link" href="#gallery">Art</a></li>
+          <li><a class="nav__link" href="#gaming">Gaming</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===================================================================
+         HOME
+         =================================================================== -->
+    <section class="hero" id="home">
+      <svg class="hero__motif" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+        <defs>
+          <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+            <path d="M48 0H0v48" fill="none" stroke="#FFFFFF" stroke-opacity=".05" stroke-width="1"/>
+          </pattern>
+          <radialGradient id="fade" cx="62%" cy="38%" r="58%">
+            <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+          </radialGradient>
+          <mask id="fadeMask">
+            <rect width="1200" height="800" fill="url(#fade)"/>
+          </mask>
+        </defs>
+
+        <rect width="1200" height="800" fill="url(#grid)" mask="url(#fadeMask)"/>
+
+        <g mask="url(#fadeMask)">
+          <!-- Constellation: edges first so the stars sit on top of them. -->
+          <g stroke="#4D9FFF" stroke-opacity=".30" stroke-width="1" fill="none">
+            <path d="M742 168 L869 246 L823 391 L676 404 L742 168"/>
+            <path d="M869 246 L1012 198"/>
+            <path d="M676 404 L612 268 L742 168"/>
+            <path d="M823 391 L905 523"/>
+            <path d="M612 268 L498 214"/>
+          </g>
+          <g fill="#4D9FFF">
+            <circle cx="742"  cy="168" r="3.5"/>
+            <circle cx="869"  cy="246" r="2.5"/>
+            <circle cx="823"  cy="391" r="4"/>
+            <circle cx="676"  cy="404" r="2.5"/>
+            <circle cx="612"  cy="268" r="3"/>
+          </g>
+          <g fill="#A78BFA">
+            <circle cx="1012" cy="198" r="2.5"/>
+            <circle cx="905"  cy="523" r="3"/>
+            <circle cx="498"  cy="214" r="2"/>
+          </g>
+          <circle cx="823" cy="391" r="16" fill="none" stroke="#4D9FFF" stroke-opacity=".22"/>
+          <circle cx="742" cy="168" r="26" fill="none" stroke="#A78BFA" stroke-opacity=".14"/>
+        </g>
+      </svg>
+
+      <div class="wrap hero__inner">
+        <!-- EDIT: your name, exactly as you want it displayed. -->
+        <h1 class="hero__name">Saptak&nbsp;Das</h1>
+
+        <!-- EDIT: your tagline. -->
+        <p class="hero__tagline">Curious mind. Creative perspective.</p>
+
+        <!-- EDIT: placeholder introduction — replace with your own words.
+             Keep it to two or three sentences. -->
+        <p class="hero__intro">
+          I spend my time between four things: physics, mathematics, drawing portraits,
+          and playing games. This site is where I keep what I am learning, what I am
+          making, and the questions I have not answered yet.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#science">
+            Explore my interests
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M2 7h10M8 3l4 4-4 4"/>
+            </svg>
+          </a>
+          <a class="btn btn--ghost" href="#gallery">View my art</a>
+        </div>
+
+        <!-- Decorative. Gauss's law — one of the four Maxwell equations. -->
+        <p class="hero__equation" aria-hidden="true">&#8750; E &middot; dA &nbsp;=&nbsp; Q / &epsilon;&#8320;</p>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         INTERESTS
+         =================================================================== -->
+    <section class="section" id="interests" aria-labelledby="interests-title">
+      <div class="wrap">
+        <p class="eyebrow">01 — Interests</p>
+        <h2 class="section__title" id="interests-title">Four things I keep coming back to</h2>
+        <p class="section__intro">
+          Each of these has its own corner of the site.
+        </p>
+
+        <div class="grid grid--4">
+          <!-- EDIT: interest card. Copy a whole <article> to add another. -->
+          <article class="card reveal">
+            <span class="tag tag--accent">Physics</span>
+            <h3 class="card__title"><a class="card__link" href="#science">Physics</a></h3>
+            <p class="card__text">How the universe behaves, from the very small to the very large.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="tag tag--accent">Mathematics</span>
+            <h3 class="card__title"><a class="card__link" href="#science">Mathematics</a></h3>
+            <p class="card__text">The structures and proofs underneath everything else.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="tag tag--violet">Art</span>
+            <h3 class="card__title"><a class="card__link" href="#gallery">Portrait Art</a></h3>
+            <p class="card__text">Drawing and painting people — faces, light, and expression.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="tag tag--violet">Games</span>
+            <h3 class="card__title"><a class="card__link" href="#gaming">Gaming</a></h3>
+            <p class="card__text">Worlds worth getting lost in, and what makes them work.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         ABOUT
+         =================================================================== -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="wrap">
+        <p class="eyebrow">02 — About</p>
+        <h2 class="section__title" id="about-title">About me</h2>
+
+        <div class="grid grid--2 grid--start">
+          <!-- EDIT: replace this placeholder with 80–120 words about yourself,
+               then delete the <span class="placeholder__badge"> line and the
+               "placeholder" class from the <article> above it. -->
+          <article class="card placeholder reveal">
+            <span class="placeholder__badge">Placeholder</span>
+            <h3 class="card__title">Short biography</h3>
+            <p class="card__text">
+              Write 80–120 words here in your own voice: what you are interested in,
+              how you got into it, and what you are working on at the moment.
+            </p>
+          </article>
+
+          <div class="grid reveal">
+            <!-- EDIT: what you enjoy learning. -->
+            <article class="card placeholder">
+              <span class="placeholder__badge">Placeholder</span>
+              <h3 class="card__title">What I enjoy learning</h3>
+              <p class="card__text">A sentence or two about the kinds of ideas you like chasing.</p>
+            </article>
+
+            <!-- EDIT: what inspires your creative work. -->
+            <article class="card placeholder">
+              <span class="placeholder__badge">Placeholder</span>
+              <h3 class="card__title">What inspires my work</h3>
+              <p class="card__text">What makes you want to draw, and where you look for subjects.</p>
+            </article>
+
+            <!-- EDIT: what you are currently exploring. Worth updating now and then. -->
+            <article class="card placeholder">
+              <span class="placeholder__badge">Placeholder</span>
+              <h3 class="card__title">Currently exploring</h3>
+              <p class="card__text">What you are reading, practising, or stuck on right now.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         PHYSICS & MATHEMATICS
+         =================================================================== -->
+    <section class="section" id="science" aria-labelledby="science-title">
+      <div class="wrap">
+        <p class="eyebrow">03 — Physics &amp; Maths</p>
+        <h2 class="section__title" id="science-title">Physics &amp; Mathematics</h2>
+        <p class="section__intro">
+          Topics I keep returning to. Every card separates what is established from what
+          I personally think — check a fact before you quote it from here.
+        </p>
+
+        <p class="legend">
+          <span>Established — textbook fact, worth a source</span>
+          <span>In my words — my own note, not authoritative</span>
+        </p>
+
+        <h3 class="subhead">Physics</h3>
+        <div class="grid grid--3">
+          <!-- EDIT: physics topic. Copy a whole <article> to add another,
+               delete one to remove it. Remove class="placeholder" and the
+               badge <span> once you have written real content. -->
+          <article class="card placeholder reveal">
+            <span class="placeholder__badge">Placeholder</span>
+            <span class="tag tag--accent">Physics</span>
+            <h4 class="card__title">First topic</h4>
+            <div class="note note--fact">
+              <span class="note__label">Established</span>
+              <p>The accepted explanation, in one or two sentences. Verify it before publishing.</p>
+            </div>
+            <div class="note note--mine">
+              <span class="note__label">In my words</span>
+              <p>Why this interests you, or what you find hard about it.</p>
+            </div>
+          </article>
+
+          <article class="card placeholder reveal">
+            <span class="placeholder__badge">Placeholder</span>
+            <span class="tag tag--accent">Physics</span>
+            <h4 class="card__title">Second topic</h4>
+            <div class="note note--fact">
+              <span class="note__label">Established</span>
+              <p>The accepted explanation, in one or two sentences.</p>
+            </div>
+            <div class="note note--mine">
+              <span class="note__label">In my words</span>
+              <p>Your own take on it.</p>
+            </div>
+          </article>
+
+          <article class="card placeholder reveal">
+            <span class="placeholder__badge">Placeholder</span>
+            <span class="tag tag--accent">Physics</span>
+            <h4 class="card__title">Third topic</h4>
+            <div class="note note--fact">
+              <span class="note__label">Established</span>
+              <p>The accepted explanation, in one or two sentences.</p>
+            </div>
+            <div class="note note--mine">
+              <span class="note__label">In my words</span>
+              <p>Your own take on it.</p>
+            </div>
+          </article>
+        </div>
+
+        <h3 class="subhead">Mathematics</h3>
+        <div class="grid grid--3">
+          <!-- EDIT: mathematics topic. -->
+          <article class="card placeholder reveal">
+            <span class="placeholder__badge">Placeholder</span>
+            <span class="tag tag--violet">Mathematics</span>
+            <h4 class="card__title">First topic</h4>
+            <div class="note note--fact">
+              <span class="note__label">Established</span>
+              <p>The definition or theorem, stated plainly.</p>
+            </div>
+            <div class="note note--mine">
+              <span class="note__label">In my words</span>
+              <p>What drew you to it.</p>
+            </div>
+          </article>
+
+          <article class="card placeholder reveal">
+            <span class="placeholder__badge">Placeholder</span>
+            <span class="tag tag--violet">Mathematics</span>
+            <h4 class="card__title">Second topic</h4>
+            <div class="note note--fact">
+              <span class="note__label">Established</span>
+              <p>The definition or theorem, stated plainly.</p>
+            </div>
+            <div class="note note--mine">
+              <span class="note__label">In my words</span>
+              <p>What drew you to it.</p>
+            </div>
+          </article>
+
+          <article class="card placeholder reveal">
+            <span class="placeholder__badge">Placeholder</span>
+            <span class="tag tag--violet">Mathematics</span>
+            <h4 class="card__title">Third topic</h4>
+            <div class="note note--fact">
+              <span class="note__label">Established</span>
+              <p>The definition or theorem, stated plainly.</p>
+            </div>
+            <div class="note note--mine">
+              <span class="note__label">In my words</span>
+              <p>What drew you to it.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         PORTRAIT ART GALLERY
+         =================================================================== -->
+    <section class="section" id="gallery" aria-labelledby="gallery-title">
+      <div class="wrap">
+        <p class="eyebrow">04 — Gallery</p>
+        <h2 class="section__title" id="gallery-title">Portrait Art</h2>
+        <p class="section__intro">
+          Drawings and paintings. Select any piece to see it larger.
+        </p>
+
+        <!-- EDIT: one <li> per artwork.
+             1. Put the photo in public/images/artworks/raw/ and run: npm run images
+             2. Copy an <li> below, then set:
+                  src        = /images/artworks/<name>-thumb.webp
+                  data-full  = /images/artworks/<name>.webp
+                  alt        = what the drawing shows, for someone who cannot see it
+                  <strong>   = the title
+                  <span>     = the medium
+             3. Delete the three placeholder tiles and the empty-state box. -->
+        <ul class="gallery">
+          <li>
+            <button class="gallery__item" type="button" data-full="/images/artworks/placeholder.svg">
+              <img src="/images/artworks/placeholder.svg" alt="Placeholder tile. No artwork has been added here yet." loading="lazy" width="400" height="500">
+              <span class="gallery__caption">
+                <strong>Placeholder tile</strong>
+                <span>Not artwork — replace with your own</span>
+              </span>
+            </button>
+          </li>
+          <li>
+            <button class="gallery__item" type="button" data-full="/images/artworks/placeholder.svg">
+              <img src="/images/artworks/placeholder.svg" alt="Placeholder tile. No artwork has been added here yet." loading="lazy" width="400" height="500">
+              <span class="gallery__caption">
+                <strong>Placeholder tile</strong>
+                <span>Not artwork — replace with your own</span>
+              </span>
+            </button>
+          </li>
+          <li>
+            <button class="gallery__item" type="button" data-full="/images/artworks/placeholder.svg">
+              <img src="/images/artworks/placeholder.svg" alt="Placeholder tile. No artwork has been added here yet." loading="lazy" width="400" height="500">
+              <span class="gallery__caption">
+                <strong>Placeholder tile</strong>
+                <span>Not artwork — replace with your own</span>
+              </span>
+            </button>
+          </li>
+        </ul>
+
+        <p class="empty">
+          No artwork has been added yet. Drop photos of your drawings into
+          <code>public/images/artworks/raw/</code>, run <code>npm run images</code>,
+          then follow the comment above this gallery in <code>index.html</code>.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         GAMING
+         =================================================================== -->
+    <section class="section" id="gaming" aria-labelledby="gaming-title">
+      <div class="wrap">
+        <p class="eyebrow">05 — Gaming</p>
+        <h2 class="section__title" id="gaming-title">Games</h2>
+        <p class="section__intro">
+          Games I have enjoyed, and what made them worth the time.
+        </p>
+
+        <!-- EDIT: one <article class="game"> per game.
+             Screenshot: use only shots you captured yourself. Put the file in
+             public/images/games/ and replace the whole <div class="game__shot">
+             with: <div class="game__shot"><img src="/images/games/<name>.webp"
+             alt="<what the shot shows>" loading="lazy"></div> -->
+        <article class="game card placeholder reveal">
+          <div class="game__shot">Your own screenshot goes here</div>
+          <div class="game__body">
+            <span class="placeholder__badge">Placeholder</span>
+            <h3 class="card__title">First game</h3>
+            <p class="card__text">
+              What you like about it — exploration, atmosphere, storytelling, design, or
+              how it plays. Two or three sentences is plenty.
+            </p>
+            <ul class="tags">
+              <li class="tag">Genre</li>
+              <li class="tag">What you liked</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="game card placeholder reveal">
+          <div class="game__shot">Your own screenshot goes here</div>
+          <div class="game__body">
+            <span class="placeholder__badge">Placeholder</span>
+            <h3 class="card__title">Second game</h3>
+            <p class="card__text">What you like about it.</p>
+            <ul class="tags">
+              <li class="tag">Genre</li>
+              <li class="tag">What you liked</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="game card placeholder reveal">
+          <div class="game__shot">Your own screenshot goes here</div>
+          <div class="game__body">
+            <span class="placeholder__badge">Placeholder</span>
+            <h3 class="card__title">Third game</h3>
+            <p class="card__text">What you like about it.</p>
+            <ul class="tags">
+              <li class="tag">Genre</li>
+              <li class="tag">What you liked</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         CONTACT
+         =================================================================== -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <p class="eyebrow">06 — Contact</p>
+        <h2 class="section__title" id="contact-title">Get in touch</h2>
+        <p class="section__intro">
+          This page is public, so only put an address here that you are happy for
+          anyone to see.
+        </p>
+
+        <!-- EDIT: your public email. Replace BOTH the href and the visible text,
+             then delete class="contact__link--empty" and change the <span> to an <a>:
+             <a class="contact__link" href="mailto:you@example.com">you@example.com</a> -->
+        <ul class="contact__links">
+          <li>
+            <span class="contact__link contact__link--empty">Email — not set yet</span>
+          </li>
+
+          <!-- Verified: this is Saptak's GitHub account. -->
+          <li>
+            <a class="contact__link" href="https://github.com/SaptakDas08" rel="me noopener" target="_blank">
+              GitHub
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <path d="M4 2h6v6M10 2 3 9"/>
+              </svg>
+              <span class="visually-hidden">(opens in a new tab)</span>
+            </a>
+          </li>
+
+          <!-- EDIT: add real profiles only. Replace a <span> with an <a href="...">,
+               or delete the <li> if you do not use that service. -->
+          <li><span class="contact__link contact__link--empty">Art profile — not set yet</span></li>
+          <li><span class="contact__link contact__link--empty">Other link — not set yet</span></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p>&copy; <span id="year">2026</span> Saptak Das</p>
+      <p>Built with HTML, CSS and a little JavaScript.</p>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" aria-label="Artwork viewer">
+    <img alt="">
+    <div class="lightbox__bar">
+      <div class="lightbox__text"><strong></strong><span></span></div>
+      <button class="lightbox__btn" type="button" data-step="-1" aria-label="Previous artwork">&#8592;</button>
+      <button class="lightbox__btn" type="button" data-step="1" aria-label="Next artwork">&#8594;</button>
+      <button class="lightbox__btn" type="button" data-close aria-label="Close viewer">&#10005;</button>
+    </div>
+  </dialog>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
