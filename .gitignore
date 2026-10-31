@@ -3,6 +3,9 @@ dist/
 .DS_Store
 .env
 
+# Planning notes are working documents; this repo is public.
+docs/
+
 # Original phone photos are heavy and never served; only the guide is tracked.
 public/images/artworks/raw/*
 !public/images/artworks/raw/README.md
