@@ -105,7 +105,6 @@ public/images/artworks/raw/    your original photos (stays on your computer)
 public/images/games/           your own game screenshots
 scripts/optimize-images.sh     what `npm run images` runs
 tools/og-card.html             source for the share image
-docs/                          the original plan and the build plan
 ```
 
 ### Design system
